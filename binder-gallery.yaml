@@ -1,10 +1,10 @@
 ---
-name: Example Gallery
+name: AI-assisted Climate Tipping-point Modeling (ACTM)
 description: >-
-  An example gallery of notebooks used for debugging the Pangeo Gallery
-  infrastructure.
+   A gallery of notebooks containing code snippets and hybrid models from 
+   the DARPA AI-Assisted Climate Tipping Point Modeling (ACTM) program.
 gallery_repository: pangeo-gallery/pangeo-gallery
 binder_url: "https://binder.pangeo.io"
-binder_repo: pangeo-data/pangeo-docker-images
+binder_repo: hagabbar/Pangeo-for-AI-assisted-Climate-Tipping-point-Modelling
 binder_ref: master
 binderbot_target_branch: binderbot-built
