@@ -1,20 +1,9 @@
-# Pangeo Gallery Template
+# ACTM Gallery
 
-This repository stores an example gallery repo for the Pangeo Gallery.
-It is configured to automatically build itself using
-[binderbot](https://github.com/pangeo-gallery/binderbot).
-It is linked, via a git submodule, the the
-[gallery website repo](https://github.com/pangeo-gallery/pangeo-gallery).
-Whenever the notebooks are updated in this, repository
-dispatch is used to trigger a gallery rebuild. This keeps
-[gallery.pangeo.io](http://gallery.pangeo.io) always in sync with this repo.
+Climate change, whether natural or human-driven, has huge potential impacts on geopolitical and economic stability, food and water security, and DoD missions and operations. Current climate models of highly complex, underlying physical processes are computationally intensive and provide limited actionable guidance to policy makers, especially on the risks and causes of sudden tipping-points, runaway feedback loops, and the strategic implications of potential adversarial activity. Third wave AI methods (e.g., neuro-symbolic hybrid AI models that can incorporate context and can extract causal factors and internal structure) have the potential to improve the accuracy of climate forecasts as well as improve the predictability of tipping points and to provide actionable guidance on new data when predictability remains poor. Faster learned models, particularly when used in conjunction with full-scale physics models for validation, will enable policy makers to better explore the climate impacts and risks of policy decisions. Quantifying climate risks is essential to prepare for a range of scenarios such as those related to DoD planning and decision support (e.g., arctic strategy/defense, regional destabilization, global power/economic realignment, base/force locations, and extreme weather threats) and to identify new potential high-value observations (e.g., stratospheric vs. ocean surface vs. deep ocean vs. arctic, etc.) to enhance confidence in forecasts.
 
-The repo contains the following elements:
+The objective of ACTM program is to explore AI-assisted modeling of complex processes related to climate. The specific goals of this effort are to:
 
-- A set of jupyter notebooks, numbered in the order that we want them to
-  appear on the gallery website.
-- A configuration file, `binder-gallery.yaml`, which provides important
-  configuration parameters (see [pangeo gallery documentation](http://gallery.pangeo.io)).
-- A thumbnail image (`thumbnail.png`), a 200 x 200 px image which represents
-  the gallery content.
-- Github workflows, which make the magic happen! (Don't touch these.)
+Explore the use of third wave AI methods to enhance models of complex interconnected processes. In particular, to develop hybrid AI models of the climate and Earth system that capture missing physical, chemical, or biological processes with sufficient computational efficiency to explore decadal scale effects and characterize tipping points and bifurcations.
+
+Develop methods to assimilate diverse data into models and estimate the “value of new data” to enhance confidence in target-specific forecasts relative to state-of-the-art (SOTA) techniques.
